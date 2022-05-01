@@ -19,17 +19,17 @@ create poll questions
 
 # Project breakdown:
 
-App: Has a route to all project pages , default is Home
-Login (view): handle the login and maps over the list of users 
-Nav: Navbar of the application which includes the Home, Leader board, New poll, user picture and name, and logout button
-Home (view): Home page which maps over the answered and unanswered questions.
-UserCard: which represents the author name and avatar.
-PollTeaser: which represents the question of the author
-PollQuestion (view): which represents the answers
-PollResult (view): which represents the result of the poll
-Poll404 (view): 404 Error page
-NewPoll (view): Enables the user to create a new poll
-Leaderboard (view): maps over the data from the leaderBoardData
+“*” App: Has a route to all project pages , default is Home.
+“*” Login (view): handle the login and maps over the list of users.
+“*” Nav: Navbar of the application which includes the Home, Leader board, New poll, user picture and name, and logout button
+“*” Home (view): Home page which maps over the answered and unanswered questions.
+“*” UserCard: which represents the author name and avatar.
+“*” PollTeaser: which represents the question of the author
+“*” PollQuestion (view): which represents the answers
+“*” PollResult (view): which represents the result of the poll
+“*” Poll404 (view): 404 Error page
+“*” NewPoll (view): Enables the user to create a new poll
+“*” Leaderboard (view): maps over the data from the leaderBoardData
 
 # Installation:
 
